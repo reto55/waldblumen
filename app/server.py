@@ -9,10 +9,65 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1iTHGNNnJ3XwQqqRnbWQXqxCjsMVLQcLm?alt=media&key=AIzaSyC0avpndKJvQFMc__POQNGVtvpfefzJRIA'
+export_file_name = 'waldblumen.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Buschwindröschen',
+  'Bärlauch',
+  'Christrose',
+  'Echte Nelkenwurz',
+  'Echte Schlüsselblume',
+  'Echter Beinwell',
+  'Echtes Salomonssiegel',
+  'Elfenblume',
+  'Europäisches Alpenveilchen',
+  'Feigwurz',
+  'Gamander-Ehrenpreis',
+  'Geflecktes Lungenkraut',
+  'Gelbes Veilchen',
+  'Gelbes Windröschen',
+  'Gewöhnlicher Gilbweiderich',
+  'Giersch',
+  'Gold-Hahnenfuß',
+  'Goldnessel',
+  'Grosses Hexenkraut',
+  'Grosses Springkraut',
+  'Gundelrebe',
+  'Hainlattich',
+  'Hohe Schlüsselblume',
+  'Hohler Lerchensporn',
+  'Immenblatt',
+  'Kleine Bibernelle',
+  'Kleines Springkraut',
+  'Knoblauchsranke',
+  'Kriechender Günsel',
+  'Leberblümchen',
+  'Maiglöckchen',
+  'Märzenbecher',
+  'Nieswurz',
+  'Pfennigkraut',
+  'Purpur-Knabenkraut',
+  'Purpurrote Taubnessel',
+  'Rote Lichtnelke',
+  'Roter Fingerhut',
+  'Schaumblüten',
+  'Schmallblättriges Weidenröschen',
+  'Schneerosen',
+  'Schöllkraut',
+  'Sumpf-Helmkraut',
+  'Sumpfdotterblume',
+  'Wald-Erdbeere',
+  'Wald-Geißbart',
+  'Wald-Gelbstern',
+  'Wald-Habichtskraut',
+  'Wald-Schaumkraut',
+  'Wald-Storchschnabel',
+  'Waldmeister',
+  'Waldsauerklee',
+  'Wechselblättriges Milzkraut',
+  'Wiesen-Schaumkraut',
+  'Wiesen-Wachtelweizen',
+  'Wolfsmilchgewächse']
 path = Path(__file__).parent
 
 app = Starlette()
