@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1u2Bgr9rO_u6WAltvjiJDMucXxmCxoKtO?alt=media&key=AIzaSyC0avpndKJvQFMc__POQNGVtvpfefzJRIA'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1u2Bgr9rO_u6WAltvjiJDMucXxmCxoKtO?alt=media&key=AIzaSyC5ZSb9ODnFsTHnQyk1ohqI9lgM3zzoGpg'
 export_file_name = 'waldblumen.pkl'
 
 classes = ['Buschwindroeschen',
